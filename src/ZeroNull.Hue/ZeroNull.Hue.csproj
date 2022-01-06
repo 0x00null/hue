@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>annotations</Nullable>
+    <AssemblyName>hue</AssemblyName>
+    <Authors>0x00null</Authors>
+    <Copyright>0x00null</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Verbs\VerbInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Melanchall.DryWetMidi" Version="6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Q42.HueApi" Version="3.19.0" />
+    <PackageReference Include="Q42.HueApi.ColorConverters" Version="3.18.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
+    <PackageReference Include="Serilog.Sinks.Debug" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZeroNull.Hue.Api.ClipV2\ZeroNull.Hue.Api.ClipV2.csproj" />
+  </ItemGroup>
+
+</Project>

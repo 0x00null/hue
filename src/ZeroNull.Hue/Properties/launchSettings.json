@@ -1,0 +1,147 @@
+{
+  "profiles": {
+    "ZeroNull.Hue": {
+      "commandName": "Project"
+    },
+    "Connect": {
+      "commandName": "Project",
+      "commandLineArgs": "connect https://192.168.1.140"
+    },
+    "Disconnect": {
+      "commandName": "Project",
+      "commandLineArgs": "disconnect"
+    },
+    "status": {
+      "commandName": "Project",
+      "commandLineArgs": "status"
+    },
+    "select none": {
+      "commandName": "Project",
+      "commandLineArgs": "select none"
+    },
+    "listen": {
+      "commandName": "Project",
+      "commandLineArgs": "listen"
+    },
+    "log-input": {
+      "commandName": "Project",
+      "commandLineArgs": "log-input"
+    },
+    "help": {
+      "commandName": "Project",
+      "commandLineArgs": "help"
+    },
+    "action list": {
+      "commandName": "Project",
+      "commandLineArgs": "action list"
+    },
+    "action log": {
+      "commandName": "Project",
+      "commandLineArgs": "action log"
+    },
+    "action log with messages": {
+      "commandName": "Project",
+      "commandLineArgs": "action log \"This is a test\" \"and hello\""
+    },
+    "action off": {
+      "commandName": "Project",
+      "commandLineArgs": "action off"
+    },
+    "action on": {
+      "commandName": "Project",
+      "commandLineArgs": "action on"
+    },
+    "action dim": {
+      "commandName": "Project",
+      "commandLineArgs": "action dim"
+    },
+    "action dim level=50": {
+      "commandName": "Project",
+      "commandLineArgs": "action dim level=50"
+    },
+    "map on": {
+      "commandName": "Project",
+      "commandLineArgs": "map on"
+    },
+    "map off": {
+      "commandName": "Project",
+      "commandLineArgs": "map off"
+    },
+    "map clear": {
+      "commandName": "Project",
+      "commandLineArgs": "map clear"
+    },
+    "route list": {
+      "commandName": "Project",
+      "commandLineArgs": "route list"
+    },
+    "route test 0": {
+      "commandName": "Project",
+      "commandLineArgs": "route test 0"
+    },
+    "route test 1": {
+      "commandName": "Project",
+      "commandLineArgs": "route test 1"
+    },
+    "map dim": {
+      "commandName": "Project",
+      "commandLineArgs": "map dim"
+    },
+    "listen --debug": {
+      "commandName": "Project",
+      "commandLineArgs": "listen --debug"
+    },
+    "map dim 50": {
+      "commandName": "Project",
+      "commandLineArgs": "map dim level=50"
+    },
+    "map apply": {
+      "commandName": "Project",
+      "commandLineArgs": "map apply"
+    },
+    "map save": {
+      "commandName": "Project",
+      "commandLineArgs": "map save"
+    },
+    "route clear": {
+      "commandName": "Project",
+      "commandLineArgs": "route clear"
+    },
+    "map random": {
+      "commandName": "Project",
+      "commandLineArgs": "map random"
+    },
+    "action off target=aee15396-f8b1-4b4a-9af0-c1d8aa308186": {
+      "commandName": "Project",
+      "commandLineArgs": "action off target=aee15396-f8b1-4b4a-9af0-c1d8aa308186"
+    },
+    "action off target=lounge": {
+      "commandName": "Project",
+      "commandLineArgs": "action off target=lounge"
+    },
+    "action off target=invalid": {
+      "commandName": "Project",
+      "commandLineArgs": "action off target=invalid_target_name"
+    },
+    "action on target=lounge": {
+      "commandName": "Project",
+      "commandLineArgs": "action on target=lounge"
+    },
+    "select lounge": {
+      "commandName": "Project",
+      "commandLineArgs": "select lounge"
+    },
+    "action select target=lounge": {
+      "commandName": "Project",
+      "commandLineArgs": "action select target=lounge"
+    },
+    "map set-scene name=\"ocean dawn\" duration=1000": {
+      "commandName": "Project",
+      "commandLineArgs": "map set-scene name=\"ocean dawn\" duration=1000"
+    },
+    "action set-scene name=\"ocean dawn\" duration=1000": {
+      "commandName": "Project",
+      "commandLineArgs": "action set-scene name=\"ocean dawn\" duration=1000"
+    }
+  }
+}
